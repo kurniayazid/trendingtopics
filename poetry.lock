@@ -581,6 +581,17 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "0.21.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "pytrends"
 version = "4.8.0"
 description = "Pseudo API for Google Trends"
@@ -754,7 +765,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10.6"
-content-hash = "20c0fff860c730e1bad534b75542aea13f4272cb3fd9db1501d827f44e201bb3"
+content-hash = "11504553a91aba8546e100b10fe9dd83230a5c7a280a16fbe224fec1e2dca883"
 
 [metadata.files]
 appnope = [
@@ -1384,6 +1395,10 @@ pytest = [
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
     {file = "python_dateutil-2.8.2-py2.py3-none-any.whl", hash = "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"},
+]
+python-dotenv = [
+    {file = "python-dotenv-0.21.0.tar.gz", hash = "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"},
+    {file = "python_dotenv-0.21.0-py3-none-any.whl", hash = "sha256:1684eb44636dd462b66c3ee016599815514527ad99965de77f43e0944634a7e5"},
 ]
 pytrends = [
     {file = "pytrends-4.8.0-py2-none-any.whl", hash = "sha256:31a76cf560a23a9eb691a9a83a3306bbe555ed1665122a5756e789829f56a0ef"},
