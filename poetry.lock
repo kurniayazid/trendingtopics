@@ -366,6 +366,17 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "newsapi-python"
+version = "0.2.6"
+description = "An unofficial Python client for the News API"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+requests = "<3.0.0"
+
+[[package]]
 name = "numpy"
 version = "1.23.5"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -765,7 +776,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10.6"
-content-hash = "11504553a91aba8546e100b10fe9dd83230a5c7a280a16fbe224fec1e2dca883"
+content-hash = "d4579ce503406f601560286497e15ef5464e8169027074529799b7afdb077ad1"
 
 [metadata.files]
 appnope = [
@@ -1197,6 +1208,10 @@ matplotlib-inline = [
 nest-asyncio = [
     {file = "nest_asyncio-1.5.6-py3-none-any.whl", hash = "sha256:b9a953fb40dceaa587d109609098db21900182b16440652454a146cffb06e8b8"},
     {file = "nest_asyncio-1.5.6.tar.gz", hash = "sha256:d267cc1ff794403f7df692964d1d2a3fa9418ffea2a3f6859a439ff482fef290"},
+]
+newsapi-python = [
+    {file = "newsapi-python-0.2.6.tar.gz", hash = "sha256:7308966c643a636f708583d358a2ccc481b21a10fdc6d31eb05130061afd4d77"},
+    {file = "newsapi_python-0.2.6-py2.py3-none-any.whl", hash = "sha256:71857f0bb86907c699f1ef4bfb9775facd10af87766af5f2e15f0d49f1a26cbc"},
 ]
 numpy = [
     {file = "numpy-1.23.5-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:9c88793f78fca17da0145455f0d7826bcb9f37da4764af27ac945488116efe63"},
